@@ -6,6 +6,7 @@
 
 body {
  font-family: 'Scheherazade New', serif;
+ font-size:16px;
 } 
 
 .container {
@@ -93,7 +94,7 @@ li {
 @media only screen and (min-width:767px) {
 body {
  background-color:#1e3f66;
- font-size:20px;
+ font-size:25px;
 } 
 
 .container {
