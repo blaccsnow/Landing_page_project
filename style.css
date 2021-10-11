@@ -115,4 +115,9 @@ html {
  p, li, .link{
   font-size:1.5rem;
  } 
+
+ .first-section {
+  padding-left:20px;
+  padding-right:20px;
+ } 
 } 
