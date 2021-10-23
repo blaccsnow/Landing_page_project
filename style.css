@@ -197,6 +197,10 @@ body {
  flex-direction:row-reverse;
 }
 
+#head-element {
+ flex-direction:row;
+} 
+
 .hero-image {
  max-width:40%
 } 
