@@ -1,0 +1,193 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body {
+ background:#555;
+ color:#fff;
+ font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+#flex-wrapper {
+ display:flex;
+ flex-direction:row-reverse;
+}
+
+#container {
+ max-width:85%;
+ margin:auto;
+ min-height:100vh;
+ display:block;
+}
+
+#head-element {
+ display:flex;
+ flex-direction:column;
+}
+
+#head-flex {
+ display:flex;
+ max-width:100%;
+ justify-content:space-between;
+ height:50px;
+ margin:20px 0;
+}
+
+#menu-image {
+ width:40px;
+ height:40px;
+ margin-top:20px;
+ padding:5px;
+}
+
+#close-div {
+ text-align:right;
+}
+
+#close-btn {
+ height:35px;
+ width:35px;
+ margin:15px 20px;
+}
+
+#head-element h1 {
+ font-size:2.2rem;
+ color:#fff;
+ font-weight:bold;
+}
+
+#head-element p {
+ font-size:1.7rem;
+ color:#fff;
+}
+
+#desktop-nav {
+ display:none;
+}
+
+
+#navigation h2 {
+ margin:30px 0 20px;
+ border-top:1px solid green;
+ border-bottom:1px solid green;
+ padding:10px 0;
+ color:#fff;
+}
+
+#navigation a {
+ text-decoration:none;
+}
+
+#sidebar {
+ background:#ddd;
+ width:0;
+ display:flex;
+ flex-direction:column;
+ min-height:100vh;
+ padding:20px 0 ;
+ overflow:hidden;
+ transition:.5s;
+}
+
+#sidebar a {
+ padding-left:35px;
+ margin:12px 0;
+ font-size:1.2rem;
+ text-decoration:none;
+ color:#555;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+
+#sidebar a:hover {
+ background:#555;
+ color:#ddd;
+}
+
+#sidebar h2 {
+ font-size:2rem;
+ padding-left:35px;
+ margin-bottom:20px;
+ color:#555;
+}
+
+#hero-section {
+ text-align:left;
+ max-width:100%;
+}
+
+#hero-section h3 {
+ font-size:2.5rem;
+ margin:20px 0 25px;
+}
+
+#hero-section p {
+ font-size:1.3rem;
+ color:#ddd;
+}
+
+#hero-paragraph p{
+ text-align:left;
+ color:#ddd;
+}
+
+#hero-paragraph h4 {
+ text-align:left;
+ font-size:1.5rem;
+}
+
+#hero-paragraph ul li {
+ text-align:left;
+ margin:5px 0;
+ font-size:1.3rem;
+ list-style:circle;
+ color:#ddd;
+}
+
+.learn {
+ padding:10px;
+ font-size:1.2rem;
+ margin:20px 0;
+ background:#306754;
+ border:1px solid #306754;
+ color:#fff;
+ border-radius:5px;
+ outline:none;
+}
+
+.hero-image {
+ max-width:100%;
+ margin:30px 0;
+ border:3px solid #306754;
+ border-radius:5px;
+}
+
+#hero-paragraph h4 {
+ margin-top:20px;
+}
+
+.intro h3 {
+ font-size:2.5rem;
+ margin:20px 0 25px;
+}
+
+.intro p {
+ font-size:1.3rem;
+ color:#333;
+ margin:10px 0;
+ color:#ddd;
+}
+
+@media only screen and (min-width: 800px) {
+ #hero-section {
+  display:flex;
+  justify-content:space-between;
+ }
+
+.intro {
+ display:flex;
+ justify-content:space-between;
+}
+} 
