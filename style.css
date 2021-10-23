@@ -199,6 +199,8 @@ body {
 
 #head-element {
  flex-direction:row;
+ justify-content:space-between;
+ margin-bottom:35px;
 } 
 
 .hero-image {
@@ -207,6 +209,7 @@ body {
 
 #desktop-nav {
  display:flex;
+ margin-top:20px;
 } 
 
 #hero-section h3 {
