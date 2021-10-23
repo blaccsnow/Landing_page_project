@@ -185,11 +185,14 @@ body {
  color:#ddd;
 }
 
+#contact-icons {
+ border-top:1px solid #ddd;
+} 
 
  #contact-icons div{
   max-width:100%;
   text-align:center;
-  background-color:#3b7391;
+  background-color:#555;
   padding:15px 0;
   margin-top:10px;
 }
@@ -198,7 +201,7 @@ body {
   margin:10px 0;
   font-size:1.5rem;
   font-weight:bolder;
-  color:#111;
+  color:#ddd;
 }
 
 .contact-image {
