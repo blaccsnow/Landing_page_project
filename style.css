@@ -197,10 +197,18 @@ body {
 } 
 
 #desktop-nav {
- display:fkex;
+ display:flex;
 } 
 
 #hero-section h3 {
- max-width:50%;
+ max-width:20%;
+} 
+
+#hero-paragraph ul {
+ max-width:70%;
+} 
+
+#menu-image {
+ display:none;
 } 
 } 
