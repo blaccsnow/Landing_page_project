@@ -209,7 +209,7 @@ body {
 
 #desktop-nav {
  display:flex;
- margin-top:20px;
+ margin-top:30px;
 } 
 
 #hero-section h3 {
@@ -217,11 +217,11 @@ body {
 } 
 
 #hero-section p {
- max-width:50%;
+ max-width:40%;
 } 
 
-#hero-paragraph ul {
- max-width:70%;
+#hero-paragraph{
+ max-width:60%;
 } 
 
 #menu-image {
