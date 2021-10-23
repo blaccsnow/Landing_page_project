@@ -190,4 +190,8 @@ body {
  display:flex;
  justify-content:space-between;
 }
+
+.hero-image {
+ max-width:40%
+} 
 } 
