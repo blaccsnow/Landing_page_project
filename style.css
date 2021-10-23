@@ -215,4 +215,8 @@ body {
 #menu-image {
  display:none;
 } 
+
+.reverse {
+ flex-direction:row-reverse;
+} 
 } 
