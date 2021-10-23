@@ -201,7 +201,11 @@ body {
 } 
 
 #hero-section h3 {
- max-width:20%;
+ max-width:60%;
+} 
+
+#hero-section p {
+ max-width:50%;
 } 
 
 #hero-paragraph ul {
