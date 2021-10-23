@@ -189,9 +189,18 @@ body {
 .intro {
  display:flex;
  justify-content:space-between;
+ flex-direction:row-reverse;
 }
 
 .hero-image {
  max-width:40%
+} 
+
+#desktop-nav {
+ display:fkex;
+} 
+
+#hero-section h3 {
+ max-width:50%;
 } 
 } 
